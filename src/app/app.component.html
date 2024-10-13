@@ -104,46 +104,9 @@
       </footer>
     </div>
   </div> 
-  <!-- comment  
-  <app-popup></app-popup>
-  -->
+  
   <div class="slds-m-around_medium">
-    <!-- Button to open modal 
-    <button class="slds-button slds-button_brand" (click)="openModal()">Add Row</button>
-    -->
-    <!-- Table display 
-    <div class="slds-scrollable_y slds-m-top_medium">
-        <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
-            <thead>
-                <tr class="slds-line-height_reset">
-                    <th scope="col">
-                        <div class="slds-truncate" title="Name">Name</div>
-                    </th>
-                    <th scope="col">
-                        <div class="slds-truncate" title="Email">Email</div>
-                    </th>
-                    <th scope="col">
-                        <div class="slds-truncate" title="Status">Status</div>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let row of tableData" class="slds-hint-parent">
-                    <td data-label="Name">
-                        <div class="slds-truncate" title="{{row.name}}">{{row.name}}</div>
-                    </td>
-                    <td data-label="Email">
-                        <div class="slds-truncate" title="{{row.email}}">{{row.email}}</div>
-                    </td>
-                    <td data-label="Status">
-                        <div class="slds-truncate" title="{{row.status}}">{{row.status}}</div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
--->
-    <!-- Modal implementation using SLDS -->
+    
     <section *ngIf="isModalOpen" role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open conte">
       <div class="slds-modal__container slds-box slds-p-around_none slds-box slds-borde pa">
         <!-- Modal/Popup header -->
